@@ -1,0 +1,18 @@
+{
+    "devPars":{
+        "batteryVoltage":3.4,
+        "brokenSensor":false,
+        "childLock":false,
+        "highMotorConsumption":false,
+        "lowMotorConsumption":false,
+        "motorPosition":516,
+        "motorRange":516,
+        "openWindow":false,
+        "reason":81,
+        "relativeHumidity":58.98,
+        "sensorTemperature":22.53,
+        "targetTemperature":21
+    },
+    "devType":"lgmc-15",
+    "systemUid":"lgmc"
+}

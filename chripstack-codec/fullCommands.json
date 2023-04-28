@@ -1,0 +1,172 @@
+{
+    "cmds": [
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setTargetTemperature",
+        "cmdAttr": {
+            "targetTemperature":21 
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "forceClose",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getChildLock",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getInternalAlgoParams",
+        
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getInternalAlgoTdiffParams",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getJoinRetryPeriod",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getKeepAliveTime",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getOpenWindowParams",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getOperationalMode",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getTemperatureRange",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "getUplinkType",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "recalibrateMotor",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "receivedKeepaliveCommand",
+        "cmdAttr": {}
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "receivedKeepaliveCommand",
+        "cmdAttr": {
+            "enable":1
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setInternalAlgoParams",
+        "cmdAttr": {
+            "period":10,
+            "pFirst":1,
+            "pNext":2
+        }
+      },{
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setInternalAlgoTdiffParams",
+        "cmdAttr": {
+            "cold":10,
+            "warm":19
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setJoinRetryPeriod",
+        "cmdAttr": {
+            "value":10
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setKeepAlive",
+        "cmdAttr": {
+            "value":2
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setOpenWindow",
+        "cmdAttr": {
+            "enable":1,
+            "closeTime":10,
+            "motorPosition":17,
+            "delta":3
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setOperationalMode",
+        "cmdAttr": {
+            "mode":1
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setTargetTemperatureAndMotorPosition",
+        "cmdAttr": {
+            "motorPosition":17,
+            "targetTemperature":19
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setTemperatureRange",
+        "cmdAttr": {
+            "min":18,
+            "max":20
+        }
+      },
+      {
+        "devType": "device_type",
+        "devUid": "device_uid",
+        "cmdName": "setUplinkType",
+        "cmdAttr": {
+            "type":18
+        }
+      }
+    ]
+}

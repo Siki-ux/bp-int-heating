@@ -1,0 +1,56 @@
+{
+    "period": 300,
+	"key":{ "appkey":"0x47, 0xd9, 0xac, 0x4c, 0xb9, 0x15, 0x1f, 0x5b, 0x04, 0x96, 0xc6, 0xa4, 0xc8, 0x30, 0x10, 0x1a"
+    },
+    "channels":[
+        {
+            "index": 0,
+            "freq": 868.1,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 1,
+            "freq": 868.3,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 2,
+            "freq": 868.5,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 3,
+            "freq": 867.1,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 4,
+            "freq": 867.3,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 5,
+            "freq": 867.5,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 6,
+            "freq": 867.7,
+            "dr_min": 0,
+            "dr_max": 5
+        },
+        {
+            "index": 7,
+            "freq": 867.9,
+            "dr_min": 0,
+            "dr_max": 5
+        }
+    ]
+	
+}

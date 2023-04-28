@@ -1,0 +1,14 @@
+{
+  "devEUI": "70B3D52DD300CC3E",
+  "fPort": 10,
+  "fCnt": 2,
+  "jsonObject":{
+    "devType": "lgmc-15",
+    "devUid": "70B3D52DD300CC3E",
+    "cmdName": "setTargetTemperature",
+    "cmdPars": {
+        "targetTemperature": 21
+    }
+  }
+}
+  
