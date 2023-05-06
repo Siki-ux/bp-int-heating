@@ -15,4 +15,5 @@ V tomto priečinku sa nachádza riešnie ovládania kúrenia. Súbor `main.ts`, 
 ### Simulation
 V tomto priečinku sa nachádza simulačný program použitý nad mierne editovaným skrpitom ovládania kúrenia `HeatingControl.ts`, nachádzajucom sa v priečinku *src*. Skript `index.ts` je zdrojovým súborom pre simuláciu. 
 #### Ovládanie 
-Príkazom `make install` sa nainštalujú potrebné závislosti a príkazom `make run` sa simulácia spustí. Pre editovanie vstupných parametrov simulácie je nutné ich upraviť v súbore *Makefile* V ňom premenné reprezentujú konkrétne premenné simulácie.
+Príkazom `make install` sa nainštalujú potrebné závislosti a príkazom `make run` sa simulácia spustí. Pre editovanie vstupných parametrov simulácie je nutné ich upraviť v súbore *Makefile* V ňom premenné reprezentujú konkrétne premenné simulácie.<br>
+Výstup simulácie je v priečinku *output* a súbore `output.txt`. Dáta sú oddelené tabulátormi, pre vizualizáciu odporučam využiť napríklad MS Excel.
