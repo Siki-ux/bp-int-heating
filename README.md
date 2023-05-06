@@ -18,5 +18,5 @@ V tomto priečinku sa nachádza simulačný program použitý nad mierne editova
 Príkazom `make install` sa nainštalujú potrebné závislosti a príkazom `make run` sa simulácia spustí. Pre editovanie vstupných parametrov simulácie je nutné ich upraviť v súbore *Makefile* V ňom premenné reprezentujú konkrétne premenné simulácie.<br>
 Výstup simulácie je v priečinku *output* a súbore `output.txt`. Dáta sú oddelené tabulátormi, pre vizualizáciu odporučam využiť napríklad MS Excel.
 
-## BP
+### BP
 V tomto priečinku sa nachádzajú zdrojové súbory LaTeX a vygenerované PDF bakalárskej práce.
