@@ -1,2 +1,3 @@
-# bp-int-heating
-Tento repozitár obsahuje kódy a konfigurácie pre bakalársku prácu Sytém pre inteligentnú reguláciu kúrenia
+# Systém pre inteligentnú reguláciu kúrenia
+Tento repozitár obsahuje kódy a konfigurácie pre moju bakalársku prácu *Sytém pre inteligentnú reguláciu kúrenia*.
+##
