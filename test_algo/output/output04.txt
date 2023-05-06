@@ -1,2 +1,0 @@
-PID	Temperature	MotorPosition
-20.06	800
