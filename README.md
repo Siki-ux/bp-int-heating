@@ -26,7 +26,7 @@ Príkazom `make install` sa nainštalujú potrebné závislosti a príkazom `mak
 Výstup simulácie je v priečinku *output* a súbore `output.txt`. Obsahom súboru sú dáta ktoré reprezentujú vývoj teploty a pozície motora v čase. Jedná sa o tabuľku so stĺpcami: PID (pre pôvodné testovacie účely), teplotu v miestnosti a pozíciu motora. Dáta sú oddelené tabulátormi, pre vizualizáciu odporučam využiť napríklad MS Excel.<br>
 Príklad výstupu je následovný:
 ```
-PID	Temperature MotorPosition
+PID	Temp  MotorPosition
 800	21.03 640
 800	21.68 562
 800	22.07 562
