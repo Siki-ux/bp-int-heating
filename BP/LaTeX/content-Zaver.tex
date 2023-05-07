@@ -1,0 +1,10 @@
+\chapter{Záver}\label{zaver}
+Cieľom tejto bakalárskej práce bolo navrhnúť a implementovať systém regulácie ústredného kúrenia so zameraním na reguláciu jednotlivých miestností. 
+Tento systém mal byť diaľkovo ovládateľný platformou Logimic Smart City a mal by automaticky regulovať vytápanie adaptívnym spôsobom. 
+Tento spôsob by mal prinášať značné úspory do domácností, ktoré by boli takýmto systémom vybavené. 
+Toto riešenie by sa malo oproti existujúcim riešeniam líšiť hlavne tým, že si do systému zadáme požadovanú teplotu miestnosti a systém bude ovládať výhrevné telesá aby požadovanú teplotu miestnosti docielil a udržal.
+
+V rámci teoretickej části som si musel riadne naštudovať problematiku kúrenia a IoT. Nakoľko obe témy sú dosť robustné a pre mňa boli úplne nové, bol ich prieskumu a samoštúdiu venovaný značný čas. Poznatkami z kapitoly problematika kúrenia, dotazníkom, konzultáciou s firmou Virtuálny správca budov a hlavne konzultáciami s firmou Logimic som vyvodil požiadavky na inteligentné ovládanie kúrenia. Na základe toho som navrhol modul ovládania kúrenia pre existujúcu aplikáciu iTemp. Úpravy dashboardu neboli nutné, nakoľko táto aplikácia mala všetky potrebné ovládacie a zobrazovacie prvky. Spomínaný modul som implementoval a nasadil do ostrého riešenia aplikácie iTemp.
+Túto implementáciu som následne testoval jak v realnom prostredí, tak aj v simulácii, v ktorej som aj skúšal rôzne spôsoby a modeli regulácie.
+
+Tento systém je realne použiteľný a momentálne ovláda jednu konkrétnu miestnosť. V nej dosahuje dobrých výsledkov a udržiava požadovanú teplotu. Ďalej by bolo možné do systému zaviesť mnoho ďalšich funkcií, ktoré aj vyžadovali potencionálny zákazníci v dotazníku. Jedná sa napríklad o detekciu otvoreného okna, denné, týždenné a iné programy. Prípadne by bolo možné vylepšiť algoritmus o predikciu budúcnosti pre ešte lepšie a presnejšie ovládanie kúrenia.
