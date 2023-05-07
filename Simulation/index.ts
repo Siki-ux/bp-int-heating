@@ -183,7 +183,7 @@ function main(){
 
     //Output file prepare
     fs.writeFileSync(output,"", { flag: 'w' });
-    fs.appendFileSync(output,"PID\tTemperature\tMotorPosition\n");
+    fs.appendFileSync(output,"PID\tTemp\tMotorPosition\n");
 
 
     //time for PID regulation
