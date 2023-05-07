@@ -209,7 +209,7 @@ function main(){
         temperature = (3*Math.sin(time/(8640000*2))+20+move);
 
         //write to file results of test
-        let text:string = temperature.toFixed(2) +"\t"+ res + "\n";
+        let text:string = PID+"\t"+temperature.toFixed(2) +"\t"+ res + "\n";
         fs.appendFileSync(output,text);
         //update dummy database for next cycle
         updateParams(temperature,temperature,params.tSens1,target,temperature,range,res,c,params.integral,params.prevError,params.startTime,now+300000);        
