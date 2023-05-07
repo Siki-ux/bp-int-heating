@@ -18,10 +18,11 @@ Tento skript simuluje priebeh teploty v čase. V každom cykle sa postupne hýbe
 Príkazom `make install` sa nainštalujú potrebné závislosti a príkazom `make run` sa simulácia spustí. Pre editovanie vstupných parametrov simulácie je nutné ich upraviť v súbore *Makefile* V ňom premenné reprezentujú konkrétne premenné simulácie.<br>
  Konkrétne:<br>
 **TARGET** - reprezentuje cieľovú teplotu ktorú po systéme požadujeme,<br>
-**START** - reprezentuje počiatočnú teplotu,<br>
+**START** - reprezentuje počiatočnú teplotu a zároveň stred sínusu,<br>
 **RANGE** - reprezentuje maximálny rozsah motora (Ten musí byť z intervalu 0-800),<br>
 **COEFICIENT** - reprezentuje koeficient výpočtu pozície motora (Ten musí byť z intervalu 1-20),<br>
-**MINUTES** - reprezentuje čas ako dlho simulácia beží (ideálne násobky čísla 5, nakoľko obsluha je spúšťaná každých 5 minút),<br><br> 
+**MINUTES** - reprezentuje čas ako dlho simulácia beží (ideálne násobky čísla 5, nakoľko obsluha je spúšťaná každých 5 minút),<br>
+**SINC** - reprezentuje násobok sínusového vývoja teploty,<br><br> 
 #### Výstup
 Výstup simulácie je v priečinku *output* a súbore `output.txt`. Obsahom súboru sú dáta ktoré reprezentujú vývoj teploty a pozície motora v čase. Jedná sa o tabuľku so stĺpcami: PID (pre pôvodné testovacie účely), teplotu v miestnosti a pozíciu motora. Dáta sú oddelené tabulátormi, pre vizualizáciu odporučam využiť napríklad MS Excel.<br>
 Príklad výstupu je následovný:

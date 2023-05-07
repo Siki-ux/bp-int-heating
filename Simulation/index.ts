@@ -166,6 +166,7 @@ function main(){
     let c = 5;
     let lastT = startT-(Math.random()*Math.random()*2);
     let intervalInMinutes = 2880;
+    let SinC = 3;
     //command line parameters  sloving
     process.argv.forEach(function (val, index, array) {
         switch(index){
@@ -175,6 +176,7 @@ function main(){
             case 5: range=parseInt(val);break;
             case 6: c=parseInt(val);break;
             case 7: intervalInMinutes=parseInt(val);break;
+            case 9: SinC==parseInt(val);break;
         }
     });
 
@@ -206,7 +208,7 @@ function main(){
         //update of temperature
         lastMove = move;
         move =  tempMovement(params.TrvMR,res,lastMove);
-        temperature = (3*Math.sin(time/(8640000*2))+20+move);
+        temperature = (SinC*Math.sin(time/(8640000*2))+startT+move);
 
         //write to file results of test
         let text:string = PID+"\t"+temperature.toFixed(2) +"\t"+ res + "\n";
