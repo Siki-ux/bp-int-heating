@@ -1,5 +1,5 @@
 # Systém pre inteligentnú reguláciu kúrenia
-Tento repozitár obsahuje kódy a konfigurácie pre moju bakalársku prácu *Sytém pre inteligentnú reguláciu kúrenia*.
+Tento repozitár obsahuje technickú správu, kódy a konfigurácie pre moju bakalársku prácu *Sytém pre inteligentnú reguláciu kúrenia*.
 ## Popis
 Cieľom tejto bakalárskej práce bolo navrhnúť a implementovať systém regulácie ústredného kúrenia so zameraním na reguláciu jednotlivých miestností. Tento systém je diaľkovo ovládateľný platformou Logimic Smart City a automaticky regulouje vytápanie adaptívnym spôsobom. Tento spôsob prináša značné úspory do domácností, ktoré sú takýmto systémom vybavené. Toto riešenie sa oproti existujúcim riešeniam líšiť hlavne tým, že si do systému zadáme požadovanú teplotu miestnosti a systém ovláda výhrevné telesá tak, aby požadovanú teplotu miestnosti docielili a udržali.
 ## Obsah:
