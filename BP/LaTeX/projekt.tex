@@ -19,7 +19,7 @@
 %==============================================================================
 %\documentclass[]{fitthesis} % bez zadání - pro začátek práce, aby nebyl problém s překladem
 %\documentclass[english]{fitthesis} % without assignment - for the work start to avoid compilation problem
-\documentclass[zadani,slovak]{fitthesis} % odevzdani do wisu a/nebo tisk s barevnými odkazy - odkazy jsou barevné
+\documentclass[zadani,slovak,cprint]{fitthesis} % odevzdani do wisu a/nebo tisk s barevnými odkazy - odkazy jsou barevné
 %\documentclass[english,zadani]{fitthesis} % for submission to the IS FIT and/or print with color links - links are color
 %\documentclass[zadani,print]{fitthesis} % pro černobílý tisk - odkazy jsou černé
 %\documentclass[english,zadani,print]{fitthesis} % for the black and white print - links are black
@@ -148,19 +148,19 @@
   % Abstrakt / Abstract
   abstract.cs={Cieľom tejto bakalárskej práce bolo navrhnúť a implementovať systém regulácie ústredného kúrenia so zameraním na reguláciu jednotlivých miestností. 
   Tento systém je diaľkovo ovládateľný platformou Logimic Smart City a automaticky regulouje vytápanie adaptívnym spôsobom. 
-  Tento spôsob prináša značné úspory do domácností, ktoré sú takýmto systémom vybavené. 
-  Toto riešenie sa oproti existujúcim riešeniam líšiť hlavne tým, že si do systému zadáme požadovanú teplotu miestnosti a systém ovláda výhrevné telesá tak, aby požadovanú teplotu miestnosti docielili a udržali.}, % abstrakt v českém či slovenském jazyce / abstract in czech or slovak language
-  abstract.en={The goal of this bachelor's thesis was to design and implement a central heating control system with a focus on the control of individual rooms. This system is remotely controlled by the Logimic Smart City platform and automatically regulates the heating in an adaptive way. This method brings significant savings to households that are equipped with such a system. This solution differs from existing solutions mainly in that we enter the desired room temperature into the system and the system controls the heating elements so that they reach and maintain the desired room temperature.}, % abstrakt v anglickém jazyce / abstract in english
+  Tento spôsob prináša značné úspory do~domácností, ktoré sú takýmto systémom vybavené. 
+  Toto riešenie sa oproti existujúcim riešeniam líšiť hlavne tým, že si do~systému zadáme požadovanú teplotu miestnosti a systém ovláda výhrevné telesá tak, aby požadovanú teplotu miestnosti docielili a udržali.}, % abstrakt v českém či slovenském jazyce / abstract in czech or slovak language
+  abstract.en={The goal of this bachelor's thesis was to design and implement a~central heating control system with a focus on the control of individual rooms. This system is remotely controlled by the Logimic Smart City platform and automatically regulates the heating in an adaptive way. This method brings significant savings to households that are equipped with such a~system. This solution differs from existing solutions mainly in that we enter the desired room temperature into the system and the system controls the heating elements so that they reach and maintain the desired room temperature.}, % abstrakt v anglickém jazyce / abstract in english
   %abstract.en={An abstract of the work in English will be written in this paragraph.},
   % Prohlášení (u anglicky psané práce anglicky, u slovensky psané práce slovensky) / Declaration (for thesis in english should be in english)
-  declaration={Prehlasujem, že som túto bakalársku prácu vypracoval samostatne pod vedením pana Ing.~Jiřího Hynka, Ph.D.
-Dalšie informácie mi poskytli Ing. Michal Valný a Ing. František Mikulu, vývojari firmy Logimic a Ing. Slavomír Satvár z firmy Virtuálny správca budov. 
-Uviedol som všetky literárne pramene, publikacie a dalšie zdroje, z ktorých som čerpal.},
+  declaration={Prehlasujem, že som túto bakalársku prácu vypracoval samostatne pod vedením pána Ing.~Jiřího Hynka, Ph.D.
+Ďalšie informácie mi poskytli Ing.~Michal~Valný,~Ph.D. a Ing.~František~Mikulu, vývojári firmy Logimic a Ing.~Slavomír Satvár z firmy Virtuálny správca budov. 
+Uviedol som všetky literárne pramene, publikácie a ďalšie zdroje, z ktorých som čerpal.},
   %declaration={I hereby declare that this Bachelor's thesis was prepared as an original work by the author under the supervision of Mr. X
 % The supplementary information was provided by Mr. Y
 % I have listed all the literary sources, publications and other sources, which were used during the preparation of this thesis.},
   % Poděkování (nepovinné, nejlépe v jazyce práce) / Acknowledgement (optional, ideally in the language of the thesis)
-  acknowledgment={Týmto by som chcel poďakovať Ing. Jiřímu Hynkovi, Ph.D, za odborné vedenie mojej práce, konzultácie, rady a hlavne trpezlivosť a ochotu. Ďalej by som chcel poďakovať vývojárom firmy Logimic Ing. Michalovi Valnému a Ing. Františkovi Mikulu za poskytnutie zariadení a ďalších prostriedkov pre vývoj, ako aj cenných rád pri implementácii. V neposlednej rade, by som chcel poďakovať Ing. Slavomírovi Satvárovi za rozhovor a poskytnuté informácie, rovnako ako aj všetkým anonymným respodentom.},
+  acknowledgment={Týmto by som chcel poďakovať Ing. Jiřímu Hynkovi, Ph.D, za odborné vedenie mojej práce, konzultácie, rady a hlavne trpezlivosť a ochotu. Ďalej by som chcel poďakovať vývojárom firmy Logimic Ing. Michalovi Valnému, Ph.D. a Ing. Františkovi Mikulu za poskytnutie zariadení a ďalších prostriedkov pre vývoj, ako aj cenných rád pri implementácii. V neposlednej rade, by som chcel poďakovať Ing. Slavomírovi Satvárovi za rozhovor a poskytnuté informácie, rovnako ako aj všetkým anonymným respondentom.},
   %acknowledgment={Here it is possible to express thanks to the supervisor and to the people which provided professional help
 %(external submitter, consultant, etc.).},
   % Rozšířený abstrakt (cca 3 normostrany) - lze definovat zde nebo níže / Extended abstract (approximately 3 standard pages) - can be defined here or below
